@@ -1,0 +1,20 @@
+
+<form (ngSubmit)="handleFormSubmit()" [formGroup]="authorForm">
+<div class="form-group">
+<label for="authorName">AuthorName</label>
+<input type="text" class="form-control" formControlName="authorName" placeholder="Please enter a name">
+<div class="alert alert-danger" *ngIf="authorForm.get('authorName').touched && authorForm.get('authorName').invalid ">
+<div *ngIf="authorForm.get('authorName').errors.required">
+    Enter correct authorName!!!!
+</div> 
+</div><br>
+<label for="authorCity">City</label>
+<input type="text" class="form-control" formControlName="authorCity" placeholder="Please enter a city">
+<div class="alert alert-danger" *ngIf="authorForm.get('authorCity').touched && authorForm.get('authorCity').invalid ">
+<div *ngIf="authorForm.get('authorCity').errors.required">
+    Enter correct authorCity!!!!
+</div> 
+</div><br>
+<button class="btn btn-primary" type="submit" [disabled]="authorForm.invalid">Submit</button> 
+</div> 
+</form>
