@@ -1,0 +1,58 @@
+body{
+	margin-top: 100px;
+
+  
+  
+ }
+
+h1,h3{
+	text-align: center;
+
+}
+.font{
+	font-family: 'Anton', sans-serif;
+font-family: 'Joti One', cursive;
+}
+
+.container{
+	position:relative;
+	align:center;
+	padding:5px 10px;
+	margin: 2% 10% 2% 10%;
+
+	text-align: center;
+
+}
+
+.content{
+	text-align:center;
+	align:center;
+}
+
+.text-center{
+	text-align: center;
+
+}
+.center{
+	text-align: center;
+}
+p,h4{
+	padding-top: 0px;
+	padding-left: 30px;
+	text-align: center;
+}
+.middle{
+	padding-top:20px;
+}
+
+img{
+	border-width: 40px;
+	float:both;
+}
+.thumbnail{
+	font-family: 'Anton', sans-serif;
+font-family: 'Joti One', cursive;
+font-family: 'Ranga', cursive;
+
+
+}

@@ -1,0 +1,176 @@
+body {
+      position: relative; 
+  }
+  #top {padding-top:50px;height:500px;color: #fff;background: #f4c4f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+  #bottom {padding-top:50px;height:500px;color: #fff;background: #ff7e5f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+  #middle {padding-top:50px;height:500px;color: #fff;background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+  #icons {padding-top:50px;height:300px;color: #fff; background-color: #FFA07A;}
+  
+.para1{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 600px;
+    text-align: center;
+    padding-top: 10px;
+    color: antiquewhite;
+}
+  .small{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 600px;
+    text-align: center;
+    padding-top: 10px;
+    color: antiquewhite;
+  }
+  .horizontal1{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 735px;
+}
+.clearfix() {
+    &:before,
+    &:after {
+      content: " ";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+  }
+  .img-circle{
+    position: absolute;
+    top:100px;
+    right: 150px;
+    float:right;
+    
+}
+.horizontal2{
+    position: relative;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.horizontal3{
+    text-align: center;
+}
+
+.head{
+    text-align: center;
+}
+.sentence{
+position: absolute;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 650px;
+    color: antiquewhite; 
+    width: 50%;
+    bottom:350px;
+    padding-bottom: 80px;
+    
+}
+.form-group{
+    width: 300px;
+    cursor: pointer;
+}
+.horizontal5{
+    position: relative;
+    margin-left: 0.5px;
+    margin-right: 850px;
+}
+.footer{
+  text-align: center;
+  background:#F08080;
+  left:0;
+  bottom:0;
+  height:80px;
+  width:100%;
+
+
+}
+p{
+  padding-top: 20px;
+}
+h3{
+  padding-left: 100px;
+}
+.soo{
+  position: absolute;
+  left:700px;
+  bottom: 280px;
+  
+}
+
+h4{
+  padding-left: 100px;
+}
+h5{
+  padding-left: 100px;
+
+}
+b{
+  color: purple;
+  font-size: 20px;
+}
+
+#ic0{
+position: absolute;
+left: 800px;
+bottom:240px;
+}
+#ic1{
+  position: absolute;
+left: 860px;
+bottom:240px;
+  
+}
+#ic2{
+  position: absolute;
+left: 920px;
+bottom:240px;
+}
+#ic3{
+  position: absolute;
+left: 980px;
+bottom:240px;
+
+}
+
+#change{
+  background-color: black;
+}
+
+.photo1{
+  width:28%;
+  height:20%;
+  position:absolute;
+  left:50px;
+
+}
+
+.photo2{
+  width:28%;
+  height:20%;
+  position: absolute;
+  left:950px;
+
+
+}
+.photo3{
+  width:28%;
+  height:20%;
+  position: absolute;
+  left: 500px;
+
+
+}
+
+
+

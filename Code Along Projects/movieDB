@@ -1,0 +1,28 @@
+var movies=[{
+	title:"ninu kori",
+	hasWatched: true,
+	rating:4
+},
+{
+	title:"50 shades",
+	hasWatched: false,
+	rating:5
+}];
+
+movies.forEach(function(movie){
+	var result="you have";
+
+if(movie.hasWatched){
+	result+="watched";
+}esle {
+	result+="not seen";
+}
+result+=+movie.title+ -";
+result+=+rating+ "stars";
+return result;
+})
+
+
+
+
+
