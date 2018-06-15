@@ -1,0 +1,60 @@
+.square{
+	width:30%;
+	
+	padding-bottom:30%;
+	background :pink;
+	margin:1.66%;
+	float:left;
+	border-radius: 15%;
+	transition:background 0.6s;
+
+
+}
+body{
+	background-color:gray;
+	margin: 0;
+}
+#container{
+	max-width: 600px;
+	margin:0 auto;
+}
+
+
+#stripe{
+	text-align: center;
+	height:40px;
+	background: white;
+}
+h1{
+	background:pink;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+}
+
+.selected{
+	background-color:blue;
+}
+#colorDisplay{
+	font-size: 100%;
+	font-weight: normal;
+	
+}
+button{
+	border:none;
+	height:100%;
+	background:none;
+	color:steelblue;
+	font-size: inherit;
+	transition: all 2.0s;
+
+}
+
+#message{
+	width:20%;
+	display: inline-block;
+}
+button:hover{
+	background-color:steelblue;
+	color:black;
+}

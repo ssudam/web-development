@@ -1,0 +1,23 @@
+.pay{
+	position: relative;
+	top:60px;
+	bottom:600px;
+	left:30px;
+	right:30px;
+
+}
+
+.image{
+	position: absolute;
+	
+	right:0px;
+	
+	bottom:0px;
+}
+.list{
+	float:right;
+	top:20px;
+}
+.clearfix {
+    overflow: auto;
+}
