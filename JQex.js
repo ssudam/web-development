@@ -1,6 +1,0 @@
-
-
-
-
-
-$("div").css("background","purple");
